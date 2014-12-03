@@ -1,0 +1,74 @@
+/*
+-----------------------------------------------------------------------------------
+    Mondira Shortcode CSS
+-----------------------------------------------------------------------------------
+*/
+
+
+/*
+-----------------------------------------------------------------------------------
+    Mondira Accordion Shortcode CSS
+-----------------------------------------------------------------------------------
+*/
+.mondira_accordion,
+.mondira_toggle {
+	margin-bottom: 60px;
+}
+
+.mondira_accordion_wrapper > h3,
+.mondira_toggle_wrapper > h3 {
+	background: #ececec;
+	padding: 15px 20px;
+	margin: 0px;
+}
+
+.mondira_accordion_section > h3,
+.mondira_toggle_section > h3 {
+	border-top: 1px solid #ececec;
+	padding: 15px 20px;
+	margin: 0px;
+	font-family: "OpenSansRegular", "RobotoSlab-Regular", Arial, sans-serif;
+	position: relative;
+}
+
+.mondira_accordion_section > h3 > a,
+.mondira_toggle_section > h3 > a {
+	color: #343434;
+	text-decoration: none;
+	font-family: "OpenSansRegular", "RobotoSlab-Regular", Arial, sans-serif;
+}
+
+.mondira_accordion_section > h3 > span,
+.mondira_toggle_section > h3 > span {
+	width: 13px;
+	height: 13px;
+	background: url( ../images/plus_minus.png ) no-repeat 0px 0px;
+	display: block;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+}
+
+.mondira_accordion_section > h3.mondira_accordion_active > span,
+.mondira_toggle_section > h3.mondira_toggle_active > span {
+	background-position: 0px -13px;
+}
+
+.mondira_accordion_section .mondira_accordion_content,
+.mondira_toggle_section .mondira_toggle_content {
+	font-size: 14px;
+	color: #343434;
+	line-height: 25px;
+	font-family: "OpenSansRegular", "RobotoSlab-Regular", Arial, sans-serif;
+	padding: 15px 20px 40px 20px;
+	margin: 0px;
+}
+
+/*
+-----------------------------------------------------------------------------------
+    Mondira Column Shortcode CSS
+-----------------------------------------------------------------------------------
+*/
+.mondira_col {
+	margin-bottom: 60px;
+}
